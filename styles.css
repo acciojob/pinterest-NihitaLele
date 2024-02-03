@@ -1,1 +1,45 @@
-/*  your css code here. If applicable */
+*{
+	padding:0px;
+	margin:0px;
+}
+#container{
+	display:flex;
+}
+* {
+  padding: 0px;
+  margin: 0px;
+}
+#hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    height: 100px;
+    width:100%;
+}
+#card{
+    display: flex;
+    text-align: center;
+}
+#card>img{
+    width: 50%;
+    object-fit: cover;
+    flex:2
+}
+#card_body{
+    margin-top: 130px;
+    padding-top:20px ;
+    flex: 1;
+    flex-direction: wrap;
+}
+#card_description{
+    padding: 10px; 
+    font-size: 16px;
+    color: #444;
+}
+#card_body > a {
+    background-color: red;
+    color: white;
+    border-radius: 3px;
+    text-decoration: none;
+    padding: 5px;
+ }
