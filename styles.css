@@ -2,7 +2,7 @@
   padding: 0px;
   margin: 0px;
 }
-#hero {
+.hero {
     display: flex;
     justify-content: space-between;
     align-items: center;  
@@ -22,7 +22,6 @@
     margin-top: 130px;
     padding-top:20px ;
     flex: 1;
-    flex-direction:row;
 }
 #card_description{
     padding: 10px; 
